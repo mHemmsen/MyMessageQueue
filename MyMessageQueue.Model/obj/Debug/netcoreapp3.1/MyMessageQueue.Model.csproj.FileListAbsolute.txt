@@ -1,0 +1,9 @@
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.deps.json
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.csprojAssemblyReference.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.AssemblyInfoInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.AssemblyInfo.cs
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.csproj.CoreCompileInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.Model\obj\Debug\netcoreapp3.1\MyMessageQueue.Model.pdb

@@ -1,0 +1,15 @@
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.deps.json
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.runtimeconfig.json
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.runtimeconfig.dev.json
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.csprojAssemblyReference.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.AssemblyInfoInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.AssemblyInfo.cs
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.csproj.CoreCompileInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.csproj.CopyComplete
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.DAL\obj\Debug\netcoreapp3.1\MyMessageQueue.DAL.genruntimeconfig.cache

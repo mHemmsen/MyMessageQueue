@@ -1,0 +1,16 @@
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.BLL.deps.json
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.BLL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.BLL.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.SAL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.DAL.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.Model.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\bin\Debug\netcoreapp3.1\MyMessageQueue.SAL.pdb
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.csprojAssemblyReference.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.AssemblyInfoInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.AssemblyInfo.cs
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.csproj.CoreCompileInputs.cache
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.csproj.CopyComplete
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.dll
+C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.BLL\obj\Debug\netcoreapp3.1\MyMessageQueue.BLL.pdb

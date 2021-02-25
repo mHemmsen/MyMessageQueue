@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  db:
+    image: "mcr.microsoft.com/mssql/server:2017-latest"
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=1Secure*Password1
+    ports:
+      - 1435:1433
+  mymessagequeue.api:
+    image: ${DOCKER_REGISTRY-}mymessagequeueapi
+    ports:
+      - 5000:80
+      - 5001:5001
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:5001;http://+:80
+
+    build:
+      context: .
+      dockerfile: MyMessageQueue.API/Dockerfile
+
+    depends_on:
+      - db
+      - rabbit
+  rabbit:
+    image: rabbitmq:3-management-alpine
+    hostname: rabbit
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    expose:
+     - 15672
+     - 5672

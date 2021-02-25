@@ -1,0 +1,66 @@
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: 1Secure*Password1
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1433
+      target: 1433
+  mymessagequeue.api:
+    build:
+      context: C:\Users\mat\source\repos\MyMessageQueue
+      dockerfile: MyMessageQueue.API/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: MyMessageQueue.API
+      target: base
+    container_name: MyMessageQueue.API
+    depends_on:
+      db:
+        condition: service_started
+      rabbit1:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: mymessagequeueapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/MyMessageQueue.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    - target: 443
+    tty: true
+    volumes:
+    - C:\Users\mat\source\repos\MyMessageQueue\MyMessageQueue.API:/app:rw
+    - C:\Users\mat\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\mat\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\mat\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\mat\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\mat\source\repos\MyMessageQueue:/src:rw
+  rabbit1:
+    environment:
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+      RABBITMQ_DEFAULT_USER: rabbitmq
+      RABBITMQ_DEFAULT_VHOST: /
+      RABBITMQ_ERLANG_COOKIE: SWQOKODSQALRPCLNMEQG
+    hostname: rabbit1
+    image: rabbitmq:3-management
+    labels:
+      NAME: rabbitmq1
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    volumes:
+    - C:\Users\mat\source\repos\MyMessageQueue\enabled_plugins:/etc/rabbitmq/enabled_plugins:rw
+version: '3.4'

@@ -1,0 +1,264 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.BLL\\MyMessageQueue.BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.BLL\\MyMessageQueue.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.BLL\\MyMessageQueue.BLL.csproj",
+        "projectName": "MyMessageQueue.BLL",
+        "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.BLL\\MyMessageQueue.BLL.csproj",
+        "packagesPath": "C:\\Users\\mat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\MyMessageQueue.DAL.csproj": {
+                "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\MyMessageQueue.DAL.csproj"
+              },
+              "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj": {
+                "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj"
+              },
+              "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\MyMessageQueue.SAL.csproj": {
+                "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\MyMessageQueue.SAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\MyMessageQueue.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\MyMessageQueue.DAL.csproj",
+        "projectName": "MyMessageQueue.DAL",
+        "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\MyMessageQueue.DAL.csproj",
+        "packagesPath": "C:\\Users\\mat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj": {
+                "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj",
+        "projectName": "MyMessageQueue.Model",
+        "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj",
+        "packagesPath": "C:\\Users\\mat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\MyMessageQueue.SAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\MyMessageQueue.SAL.csproj",
+        "projectName": "MyMessageQueue.SAL",
+        "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\MyMessageQueue.SAL.csproj",
+        "packagesPath": "C:\\Users\\mat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.SAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj": {
+                "projectPath": "C:\\Users\\mat\\source\\repos\\MyMessageQueue\\MyMessageQueue.Model\\MyMessageQueue.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
