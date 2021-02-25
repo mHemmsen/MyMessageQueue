@@ -1,9 +1,0 @@
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\bin\Debug\netcoreapp3.1\ConsoleAppBase.deps.json
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\bin\Debug\netcoreapp3.1\ConsoleAppBase.dll
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\bin\Debug\netcoreapp3.1\ConsoleAppBase.pdb
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.csprojAssemblyReference.cache
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.AssemblyInfoInputs.cache
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.AssemblyInfo.cs
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.csproj.CoreCompileInputs.cache
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.dll
-C:\Users\mat\source\repos\MyMessageQueue\ConsoleAppBase\obj\Debug\netcoreapp3.1\ConsoleAppBase.pdb
